@@ -1,0 +1,50 @@
+
+.col-md-6{
+    color: rgb(0, 0, 0);
+height: 50%;
+background-color:aliceblue
+}
+#inicio{
+    background-color: aliceblue
+}
+#quienes{
+background-color:aliceblue
+}
+
+.rounded{
+    margin: 26px;
+    font-size: 1.8rem;
+    image-orientation: from-image; 
+}
+.row{
+    margin: 26px;
+    font-size: 1.8rem;  
+    text-align:center
+    
+}
+.d-block-w-100{
+
+    height: 700px;
+    width: 700px;
+
+}
+.card-img-top{
+ height: 200px;
+    width: 150px;
+    
+}
+.title{
+    color: black
+    
+
+}
+.title-border{
+text-align: center;
+}
+.container{
+
+}
+
+
+
+
