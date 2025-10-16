@@ -1,35 +1,11 @@
-.col-md-6{
-    color: rgb(0, 0, 0);
-height: 50%;
-background-color: aliceblue;
-}
 
-
-
-#inicio{
-    background-color:black
-}
-#quienes{
-background-color:aliceblue
-}
-
-.rounded{
-    margin: 26px;
-    font-size: 1.8rem;
-    image-orientation: from-image; 
-}
 .row{
-    margin: 26px;
+    margin: 26px; /*margen alrededor de la imagen */
     font-size: 1.8rem;  
     text-align:center
     
 }
 
-.card-img-top{
- height: 200px;
-    width: 150px;
-    
-}
 .title{
     color: black;
     text-align: center;
@@ -45,10 +21,6 @@ background-color:aliceblue
     text-shadow: 2px 2px rgb(119, 52, 4);
     font-family: sans-serif
 
-}
-.title-border{
-text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .fondo-personalizado{
@@ -66,41 +38,19 @@ width:  100%;
 height: 1100px;
 margin-bottom: 15px;
 }
- 
+.background-image{
+max-width: 100%;
+max-height: 100%;
+}
+
 .imagen_logo{
-width: 600px;
-    height: auto;
+width: 400px;
+height: 100%;
 }
-
-@media (max-width: 767px) {
-    .posiscion_logo {
-        justify-content: center;
-    }
-   .posiscion_logo {
-         max-width: 80%;
-    }
-
- 
-
-    .rounded {
-        justify-content: center;
-    }
-
-    .rounded {
-        max-width: 80%;
-    }
-}
-
-
-
-
-
-
-
 
 .carousel-inner img {
   height: 700px; 
-  object-fit: cover;
+  object-fit: cover; /*no se apreta la img*/
 }
 
 .card-body{
@@ -117,7 +67,6 @@ width: 600px;
 .card-body_2{
     background-color:cornsilk;
     border: 2px solid;
-    border-radius: 5px;
     
 } 
 .card{
@@ -128,41 +77,43 @@ width: 600px;
       background-color: #ffdc68;
           border-radius: 30px;
 }
-.form-control {
-    padding: 30px;
-    margin-top: 50px;
-    margin: auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
+.form {
+    padding: 30px; /*espacio interno entre el borde del formulario y su contenido*/
+    margin-top: 50px; /*espacio arriba del formulario*/
+    margin: auto; /*centra el formulario horizontalmente*/
+    margin-bottom: 15px; /*espacio abajo del formulario */
+   
 
 }
-input {
-    width: 85%;
-    padding: 10px;
-    border-radius: 10px; 
+input {  
+    width: 85%; /*ancho del input*/
+    padding: 10px;  /*espacio interno entre el texto y el borde*/
+    border-radius: 10px;  /*redondea las esquinas*/
     border: 1px solid #000000; 
-    font-size: 15px;
-    margin-bottom: 10px; /
+    margin-bottom: 10px; /*separacion entre imputs*/
 }
 
 .boton {
-    height: 50PX;
+    height: 50px; 
     width: 60%;
     border-radius: 10px;
     font-size: 15px;
     background-color: rgb(233, 93, 0);
     border: 1px white;
-  margin-bottom: 10px;
-}
-textarea{
-    width: 87%;
-    padding: 10px; 
-    border-radius: 10px;
-    border: 1px solid #000000; 
-    font-size: 15px;
     margin-bottom: 10px;
 }
+textarea{
+    width: 88%;
+    padding: 10px;   
+    border-radius: 10px;  
+    border: 1px solid #000000; 
+    margin-bottom: 10px; 
+}
    
-section{
-    scroll-margin-top: 50px;
+.imagen_logo{
+max-width: 30%;
+}
+
+.imagen_logo_2{
+ max-width: 100%;
 }
